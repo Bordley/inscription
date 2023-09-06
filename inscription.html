@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>INSCRIPTION</legend>
+            <table>
+                <tr>
+                    <td><label for="nom">NOM</label></td>
+                    <td> <input type="text" name="nom" required autofocus id="nom"> </td>
+                </tr>
+                 
+                <tr>
+                    <td><label for="prenom">PRENOM</label></td>
+                    <td> <input type="text" name="prenom" required id="prenom"> </td>
+                </tr>
+
+                <tr>
+                    <td><label for="tel">TEL</label></td>
+                    <td> <input type="text" disabled name="tel" required id="tel"> </td>
+                </tr>
+
+                <tr>
+                    <td>SEXE</td>
+                    <td>
+                        <Select>
+                            <option value="masculin">MASCULIN</option>
+                            <option value="feminin">FEMININ</option>
+                        </Select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>FILIERE</td>
+                    <td>
+                        <Select>
+                            <option value="">SIL</option>
+                            <option value="">RIT</option>
+                            <option value="">MBM</option>
+                            <option value="">IIM</option>
+                        </Select>
+                    </td>
+                </tr>
+
+            </table>
+        </fieldset>
+
+        <fieldset>
+                <legend>FICHE A IMPORTER</legend>
+            <table>
+                    <tr>
+                        <td><label for="">ACTE DE NAISSANCE</label></td>
+                        <td> <input type="file" name="acte" required> </td>
+                    </tr>
+            </table>
+
+        </fieldset>
+
+        <table>
+            <tr>
+                
+                <td> <input type="Submit" value="Envoyer"> </td>
+                <td> <input type="reset" value="Annuler">    </td>
+            </tr>
+    </table>
+
+    </form>
+</body>
+</html>
